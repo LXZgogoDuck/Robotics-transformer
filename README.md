@@ -51,17 +51,6 @@ Test the installation by finetuning on the debug dataset:
 python scripts/finetune.py --config.pretrained_path=hf://rail-berkeley/octo-small-1.5 --debug
 ```
 
-## Checkpoints
-
-You can find pretrained Octo checkpoints [here](https://huggingface.co/rail-berkeley).
-At the moment we provide the following model versions:
-
-| Model                                                         | Inference on 1x NVIDIA 4090 | Size       |
-|---------------------------------------------------------------|-----------------------------|------------|
-| [Octo-Base](https://huggingface.co/rail-berkeley/octo-base)   | 13 it/sec                   | 93M Params |
-| [Octo-Small](https://huggingface.co/rail-berkeley/octo-small) | 17 it/sec                   | 27M Params |
-
-
 ## Examples
 
 We provide simple [example scripts](examples) that demonstrate how to use and finetune Octo models,
